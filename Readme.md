@@ -2,7 +2,7 @@
 
 
 ## Live Demo
-You can access the live Application at: [Contact Management CRM Backend](https://contact-management-app-iaqf.onrender.com/)
+You can access the live Application at: [Contact Management CRM](https://contact-management-app-iaqf.onrender.com/)
 
 ## Overview
 This project implements a Contact Management feature for a CRM system, allowing users to add, view, update, and delete contact information.
