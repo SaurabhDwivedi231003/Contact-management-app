@@ -17,7 +17,7 @@ const EditContactForm = ({ contact, fetchContacts, onClose }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.put(`http://localhost:5000/contacts/${updatedContact._id}`, updatedContact);
+            await axios.put(`https://contact-management-app-6ymf.onrender.com/contacts/${updatedContact._id}`, updatedContact);
             fetchContacts();
             onClose(); // Close the edit form after submission
         } catch (error) {

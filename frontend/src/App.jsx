@@ -8,7 +8,7 @@ const App = () => {
     const [contacts, setContacts] = useState([]);
 
     const fetchContacts = async () => {
-        const response = await axios.get('http://localhost:5000/contacts');
+        const response = await axios.get('https://contact-management-app-6ymf.onrender.com/contacts');
         setContacts(response.data);
     };
  

@@ -29,7 +29,7 @@ const ContactsTable = ({ fetchContacts, contacts }) => {
     const [openEditDialog, setOpenEditDialog] = useState(false);
 
     const handleDelete = async (id) => {
-        await axios.delete(`http://localhost:5000/contacts/${id}`);
+        await axios.delete(`https://contact-management-app-6ymf.onrender.com/contacts/${id}`);
         fetchContacts();
     };
 
