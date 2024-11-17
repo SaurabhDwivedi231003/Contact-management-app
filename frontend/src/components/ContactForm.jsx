@@ -20,7 +20,7 @@ const ContactForm = ({ fetchContacts }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://contact-management-app-6ymf.onrender.com/contacts', contact);
+            await axios.post('http://localhost:5000/contacts', contact);
             fetchContacts();
             setContact({
                 firstName: '',
