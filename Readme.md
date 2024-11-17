@@ -13,7 +13,7 @@ This project implements a Contact Management feature for a CRM system, allowing 
 2. Navigate to the `backend` folder and run `npm install` to install dependencies.
 3. Create a `.env` file in the `backend` folder with your MongoDB URI.
 4. Start the backend server with `node index.js`.
-5. Navigate to the `contact-management-frontend` folder and run `npm install` to install dependencies.
+5. Navigate to the `frontend` folder and run `npm install` to install dependencies.
 6. Start the frontend application with `npm run dev`.
 
 ## Challenges and Solutions
